@@ -3,7 +3,7 @@ scatterBox
 
 R function to create semi-transparent boxplots overlaying scattered raw data. 
 
-Advantages - no additional packages required, options to change colours, include sample size for each category (optional).
+Advantages - no additional packages required, options to change colours, includes sample size for each category (optional).
 
 ##### Luke Pilling -- luke.pilling@gmail.com
 
@@ -27,11 +27,10 @@ Advantages - no additional packages required, options to change colours, include
 * border.alpha  ::  {default=0.8}      transparency of box borders (min=0, max=1)
 
 ## Example
-![](http://s8.postimg.org/c7e98afk5/boxes.png)
-
 ```
 scatterBox(weight, height, 
            x.lab="Quartiles of weight", y.lab="Height (cm)",
            main="Plot showing the relationship between height and weight",
            labels=c("1st", "2nd", "3rd", "4th"))
 ```
+![](http://s8.postimg.org/c7e98afk5/boxes.png)
