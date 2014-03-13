@@ -5,8 +5,6 @@ R function to create semi-transparent boxplots overlaying scattered raw data.
 
 Advantages - no additional packages required, options to change colours, includes sample size for each category (optional).
 
-##### Luke Pilling -- luke.pilling@gmail.com
-
 ## Inputs/options
 * x.var   ::  {REQUIRED} the numeric y-axis variable
 * y.var   ::  {REQUIRED} the categorical x-axis variable +++must be numeric+++
