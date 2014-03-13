@@ -30,9 +30,6 @@ Advantages - no additional packages required, options to change colours, include
 ![](http://s8.postimg.org/c7e98afk5/boxes.png)
 
 ```
-weight <- vars$pq1_v20_qtiles
-height <- vars$pq1_v21
-
 scatterBox(weight, height, 
            x.lab="Quartiles of weight", y.lab="Height (cm)",
            main="Plot showing the relationship between height and weight",
